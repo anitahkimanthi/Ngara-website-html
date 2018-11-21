@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ng'ara website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="js/bootstrap.min.js">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+ 
+  <div class="container-fluid" id="services" style=" width: 100%">
+    <div class="caption">
+      GENERAL CLEANING AT 3% OFF
+    </div>
+    
+    <div class="row no-gutters" style="background-color: #4c97ae;;color:red">
+        <div class="col-12 text-center">
+                <br>
+                <button class="btn" style="background-color: #193236;color:red;">General cleaning</button>
+        </div>
+        <div class="col-sm-12 col-md-4 lets-talk text-center">
+                <a href="index.html"><button class="btn" style="color:#000 !important;">Back Home</button></a>
+            </div>
+    </div>
+    <div class="row no-gutters request-service">
+        
+      <div class="col-12 col-sm-1 col-md-2 col-lg-2"></div>
+
+       <!-- personal details for ordering a service in a service page -->
+      <div class="col-12 col-sm-5 col-md-4 col-lg-4 details">
+            <div class="data" style="width:90%;">
+              <span style="color: #fff;">Personal details</span>
+              <input type="text" placeholder="Full name" >
+              <input type="text" placeholder="Contact number" class="input" >
+              <input type="text" placeholder="Email" class="input">
+              <select class="input" name="location" placeholder="location">
+                <option value="laundry">location</option>
+                <option value="laundry">Jamhuri phase1</option>
+                <option value="cleaning the house">Jamhuri phase2</option>
+                <option value="cleaning dishes">Lavington</option>
+                <option value="cleaning dishes">Kileleshwa</option>
+                <option value="cleaning dishes">Karen</option>
+                <option value="cleaning dishes">Hurligham</option>
+              </select>
+             
+                <input id="datepicker" class="input" placeholder="Date" style="margin-bottom: 50px">
+                <script>
+                $(document).ready(function() {
+                $("#datepicker").datepicker();
+                });
+                </script>
+            </div>
+        </div>
+              <!-- service order column -->
+      <div class="col-12 col-sm-5 col-md-4 col-lg-4  details" >
+        <div class="row serve"  style="width:90%;">
+          <p>How many rooms?</p>
+          <select class="services" name="services">
+            <option value="laundry"></option>
+            <option value="cleaning the house">2</option>
+            <option value="cleaning dishes">3</option>
+            <option value="cleaning dishes">4</option>
+            <option value="cleaning dishes">5</option>
+            <option value="cleaning dishes">6</option>
+            
+          </select>
+          <p>How many hours?</p>
+          <select class="services" name="services">
+            <option value="laundry"></option>
+            <option value="cleaning the house">2</option>
+            <option value="cleaning dishes">3</option>
+            <option value="cleaning dishes">4</option>
+            <option value="cleaning dishes">5</option>
+            <option value="cleaning dishes">6</option>
+            <option value="cleaning dishes">7</option>
+            <option value="cleaning dishes">8</option>
+            <option value="cleaning dishes">9</option>
+            <option value="cleaning dishes">10</option>
+            <option value="cleaning dishes">11</option>
+            <option value="cleaning dishes">12</option>
+          </select>
+            <p for="services">Services</p>
+          <select class="services" name="services">
+            <option value="laundry">Laundry</option>
+            <option value="cleaning the house">Kitchen</option>
+            <option value="cleaning dishes">compound</option>
+            <option value="cleaning dishes">Ironing</option>
+          </select>
+            <p for="Services">Summary</p> 
+            <textarea type="text" placeholder="Your message" style="margin-bottom: 50px"></textarea>
+        </div>
+      </div>
+
+     
+      <div class="col-12 col-sm-1 col-md-2 col-lg-2"></div>
+    </div>
+</div>
+
+<!-- request service button section -->
+  <div class="container-fluid order">
+    <div class="row text-center">
+      <div class="col-sm-12 col-md-4 col-lg-4"></div>
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <button class="btn request"><a href="">REQUEST SERVICE</a></button>  
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4"></div>
+    </div>
+  </div>
+
+    <!-- footer contact information -->
+    <div id="contact" class="row contact-information" >
+      <div class="col-12 col-sm-6 col-md-4" ></div>
+      <div class="col-sm-12 col-md-4 lets-talk text-center" style="text-align:center; margin-top: 40px;">
+        <br>
+        <h5 class="talk">LET'S TALK</h5>
+        <p>
+          <span>
+            <a href="" style="color: white;">
+              Ng'araservice@gmail.com
+            </a>
+          </span>
+        </p>
+        <p>
+          <span>
+            Tel:
+            <tel>
+              +254 702228727
+            </tel>
+          </span>
+        </p>
+        <p>
+          <span>
+            Nairobi,Kenya
+          </span>
+        </p>
+
+        <h6>
+          <i class="fa-fa-map-marker"></i>
+            NG'ARA OFFICE
+          <br>
+
+        </h6>
+          <p>
+            <span>
+              6th floor Senteu Plaza lenana road.
+            </span>
+          </p>
+      </div>
+      <div class="col-sm-12 col-md-4"></div>
+    </div>
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

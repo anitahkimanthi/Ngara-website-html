@@ -9,48 +9,41 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
-<body style="background-color: #4c97ae; padding-top: 30px;">
+<body style="background-color: #4c97ae;padding-top:30px">
 
+  
       <!-- login and sign up page -->
 
-  <div class="container-fluid" >
-      <div class="col-sm-12 col-md-4 lg 4 offset-md-1 lets-talk text-center">
-          <a href="index.html"><button class="btn" style="color:#000 !important;">Back Home</button></a>
-      </div>
+  <div >
     <div class="row">
-      <!-- empty div for space -->
-      <!-- login form -->
-      <div class="col-sm-12 col-md-4 col-lg-4 offset-md-4 offset-lg-4 text-center" >
-        <div class="login-form">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/logofull.png" style="margin-top: 25px;"></a>
-            <br><br>
-          <h5 style="color: #4c97ae">Login </h5>
-
-
-          <div class="alert-danger" id="login-errors"></div>
-          <div class="alert-success" id="login-form-success"></div>
-
-
-          <form id="login-form">
             
-            <input type="text" placeholder="Enter Email" name="uname" required id="email"><br>   
-            <input type="password" placeholder="Enter Password" name="psw" required id="password"><br>
-            <!-- <input type="checkbox" name="remember" class="checkbox"> <span >Remember me</span> -->
-            <br>
-            <button type="submit" style="width: 40%;background-color: #193236;;padding: 8px;color:#fff;border: none">Login</button>
-            <br><br>
-            <p>Don't have an account please <a href="Signup.html" style="color:#f2545b">signup</a></p>
-          </form>
-          <!-- <button type="submit" style="width: 100%; background-color: #f0555b">Cancel</button> -->
+      <!-- empty div for space -->
+      <!-- sign up form -->
+      <div class="col-sm-12 col-md-4 lg 4 offset-md-1 lets-talk text-center">
+                <a href="index.html"><button class="btn" style="color:#000 !important;">Back Home</button></a>
         </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 offset-md-4 offset-lg-4 text-center" style="padding: 20px;margin-top: 30px;">
+        <form>
+        <div class="login-form">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/logofull.png" style="margin-top: 25px;"></a><br><br>
+          <h5 style="color:#4c97ae ">Sign up</h5>
+          <input type="text" placeholder="Enter Name" name="name" required >   
+          <input type="text" placeholder="Enter Email" name="email" required >   
+          <input type="text" placeholder="Enter Phone number" name="phnnumbr" required >   
+          <input type="password" placeholder="Enter Password" name="psw" required >    
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          <br>
+          <br>
+          <button type="submit" style="width: 40%;background-color: #193236;;padding: 8px;color:#fff;border:none">Signup</button>
+          <br><br>
+          <p>Already have an account please <a href="login1.html" style="color:#f2545b">login</a></p>
+        </div>
+    </form>
       </div>
-      
       <!-- empty div for space -->
     </div>
   </div>
-
-
- 
+     
 <!-- responsive nav-bar js -->
     <script>
       // function myFunction() {
